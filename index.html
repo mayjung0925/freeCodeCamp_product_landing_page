@@ -2,110 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Shops</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Shops</title>
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header id="header">
-        <div id="container">
-            <!-- company logo -->
-            <div id="header-img-container">
-                <img src="assets/flower_shop_logo.png" alt="flower-shop-logo" id="header-img">
-            </div>
-            <!-- navigation menus -->
+  <header id="header">
+    <div id="container">
+      <!-- company logo -->
+      <div id="header-img-container">
+        <img src="assets/flower_shop_logo.png" alt="flower-shop-logo" id="header-img">
+      </div>
+      <!-- navigation menus -->
 
-            <nav id="nav-bar">
-                <ul>
-                    <li><a class="nav-link" href="#header">Home</a></li>
-                    <li><a class="nav-link" href="#products">Products</a></li>
-                    <li><a class="nav-link" href="#collections">Collections</a></li>
-                    <li><a class="nav-link" href="#create-own-style">Create Your Style</a></li>
-                </ul>
-            </nav>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#products">Products</a></li>
+          <li><a class="nav-link" href="#collections">Collections</a></li>
 
-        </div>
+        </ul>
+      </nav>
 
-    </header>
-
-    <div id="video-container">
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/73VnkzCLVU0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
     </div>
 
-    <div id="form-container"> 
-      
-          <form id="form" action=" https://www.freecodecamp.com/email-submit">
-     
-              <input id="email" class="form-control mx-3" type="email" name="email" placeholder="Enter your email address" required>
-              <input id="submit" class="btn btn-outline-secondary"type="submit"  value="submit">
-          </form>
-    
+  </header>
+
+  <div id="video-container">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/73VnkzCLVU0"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <div id="form-container" >
+
+    <form id="form" class="form-group" action=" https://www.freecodecamp.com/email-submit">
+      <input id="email" class="form-control mx-3" type="email" name="email" placeholder="Enter your email address"
+        required>
+      <input id="submit" class="btn btn-outline-secondary" type="submit" value="submit">
+    </form>
+
+  </div>
+
+
+
+  <section id="products">
+
+    <div class="card shadow m-3" style="width: 20rem;">
+      <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mother's Day Special Edition</h5>
+        <p class="card-text">Light-pink Love Bouquet</p>
+        <p>$200.00</p>
+
+        <a href="#" class="btn btn-outline-secondary">More</a>
+      </div>
+    </div>
+
+    <div class="card shadow m-3" style="width: 20rem;">
+      <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mother's Day Special Edition</h5>
+        <p class="card-text">Light-pink Love Bouquet</p>
+        <p>$200.00</p>
+
+        <a href="#" class="btn btn-outline-secondary">More</a>
+      </div>
+    </div>
+
+    <div class="card shadow m-3" style="width: 20rem;">
+      <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mother's Day Special Edition</h5>
+        <p class="card-text">Light-pink Love Bouquet</p>
+        <p>$200.00</p>
+
+        <a href="#" class="btn btn-outline-secondary">More</a>
+      </div>
     </div>
 
 
 
-    <section id="products">
 
-        <div class="card shadow m-3" style="width: 20rem;">
-            <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mother's Day Special Edition</h5>
-              <p class="card-text">Light-pink Love Bouquet</p>
-              <p>$200.00</p>
+  </section>
 
-              <a href="#" class="btn btn-outline-secondary">More</a>
-            </div>
-          </div>
-        
-          <div class="card shadow m-3" style="width: 20rem;">
-            <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mother's Day Special Edition</h5>
-              <p class="card-text">Light-pink Love Bouquet</p>
-              <p>$200.00</p>
+  <section id="collections">
 
-              <a href="#" class="btn btn-outline-secondary">More</a>
-            </div>
-          </div>
+  </section>
 
-          <div class="card shadow m-3" style="width: 20rem;">
-            <img class="product-img" src="./assets/tulips.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mother's Day Special Edition</h5>
-              <p class="card-text">Light-pink Love Bouquet</p>
-              <p>$200.00</p>
+  <section id="create-own-style">
 
-              <a href="#" class="btn btn-outline-secondary">More</a>
-            </div>
-          </div>
-  
-  
+  </section>
 
 
-    </section>
+  <!-- Footer Section -->
 
-    <section id="collections">
+  <div class="footer">
+    <div class="footer-container">
+      <p id="footer-text-left">
+        <a href="#" class="menu">home</a>
+        <a href="#" class="menu">Products</a>
+        <a href="#" class="menu">Collections</a>
 
-    </section>
+      </p>
+      <div id="footer-content-right">
+        <a href="#" class="menu"><img src="./assets/twitter.jpeg" class=" icon-style" alt="Github icon"></a>
+        <a href="#" class="menu"><img src="./assets/github.jpeg" class=" icon-style" alt="Twitter icon"></a>
+        <a href="#" class="menu"><img src="./assets/email.jpeg" class=" icon-style" alt="Email icon"></a>
 
-    <section id="create-own-style">
+      </div>
+    </div>
 
-    </section>
+
+  </div>
 
 
 
 
-    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
